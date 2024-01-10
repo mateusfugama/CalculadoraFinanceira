@@ -10,8 +10,18 @@
 		<aside
 			class="bg-red-950 row-span-2 bg-emerald-300 flex flex-col justify-between py-5 px-2"
 		>
-			<h1 class="text-2xl font-bold px-6 py-2">Calculadora Boladona!</h1>
-			<form action=""></form>
+			<h1 class="text-2xl font-bold px-6 py-2">FuFuINVEST</h1>
+			<form class="w-full">
+				<div class="flex w-full">
+					<input value="%" class="w-1/6" type="text" disabled />
+					<input type="text" class="w-3/6" id="starting-amount" />
+					<!-- <input type="text" class="w-2/6" value="Mensal" /> -->
+					<select id="evaluation-period">
+						<option value="monthly">Mês</option>
+						<option value="yearly">Ano</option>
+					</select>
+				</div>
+			</form>
 			<div>
 				<button>Calcular</button>
 				<button>Limpar</button>
